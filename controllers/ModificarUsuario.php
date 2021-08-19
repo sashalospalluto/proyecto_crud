@@ -8,7 +8,15 @@
     $usuarioExistente= Usuario :: TraerPorID($id);
     if($usuarioExistente != null)
     {
-        Usuario :: ModificarUno($usuario,$clave,$usuarioExistente->id);
+        $usuarioRepetido = Usuario :: TraerUno($usuario);
+        if($usuarioRepetido == null || empty($usuarioRepetido))
+        {
+            Usuario :: ModificarUno($usuario,$clave,$usuarioExistente->id);
+        }
+        header('Location: ../views/Principal.php');
+    }
+    else
+    {
         header('Location: ../views/Principal.php');
     }
     

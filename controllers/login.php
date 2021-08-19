@@ -18,12 +18,12 @@
         }
         else
         {
-            header('Location: ../views/login.php');
+            header('Location: ../index.php');
         }
     }
     else
     {
-        header('Location: ../views/Principal.php');
+        header('Location: ../index.php');
     }
 
 ?>

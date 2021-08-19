@@ -10,8 +10,9 @@
         if($usuarioRepetido == null || empty($usuarioRepetido))
         {
             Usuario :: CargarNuevoUsuario($usuario,$clave);
-            header('Location: ../views/Principal.php');
         }
+        
+        header('Location: ../views/Principal.php');
     }
     else
     {
