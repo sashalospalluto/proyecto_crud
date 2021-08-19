@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/nuevoUsuario.css">
     <link rel="stylesheet" type="text/css" href="../css/css/all.min.css">
+    <link rel="shortcut icon" href="../imagenes/yell-ducal-equipo-programacion.png">
 </head>
 
 
